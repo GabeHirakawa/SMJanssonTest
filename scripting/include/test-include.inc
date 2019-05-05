@@ -5,3 +5,8 @@
 #define _testsmjansson_included
 
 #include <smjansson>
+
+methodmap TestSMjansson
+{
+    public TestSMjansson() {}
+}
