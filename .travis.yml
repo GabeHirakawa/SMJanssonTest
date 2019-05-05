@@ -1,5 +1,6 @@
 #Credit: https://github.com/TheChineese/SourcemodTravisCI
 language: c
+
 sudo: false
 
 addons:
