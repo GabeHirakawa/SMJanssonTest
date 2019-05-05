@@ -1,15 +1,15 @@
+#Credit: https://github.com/TheChineese/SourcemodTravisCI
+language: c
 sudo: false
 
 addons:
     apt_packages:
         - lib32stdc++6
 
-env: 
+env:
   global:
-    - INCLUDE=addons/sourcemod/scripting/include/
-    - SCRIPTING=addons/sourcemod/scripting/
-    - PLUGINS=addons/sourcemod/plugins/
-    - HOME=ftp.toastdev.de/plugins
+    - INCLUDE=scripting/include/
+    - SCRIPTING=scripting/
 
 before_install:
   - mkdir build-env
