@@ -19,8 +19,6 @@ install:
   - cd build-env
   - wget https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git6405-linux.tar.gz
   - tar -xzvf sourcemod-1.10.0-git6405-linux.tar.gz
-  - wget https://raw.githubusercontent.com/JoinedSenses/SMJansson/master/pawn/scripting/include/smjansson.inc
-  - mv smjansson.inc build-env/addons/sourcemod/scripting/
   - cd ../
   - find build-env/addons/sourcemod/scripting/ -name "*.sp" -type f -delete
   - cp -rv $SCRIPTING/. build-env/addons/sourcemod/scripting/
